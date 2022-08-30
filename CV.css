@@ -8,7 +8,7 @@ body{
 }
 
 aside{
-  background-color:#8E1401;
+  background-color:green;/* #8E1401; */
   height:auto;
 }
 
@@ -168,5 +168,9 @@ div h1{
   aside ul{
     width:100%;
     font-size:20px;
+  }
+
+  .dates{
+    width:30%;
   }
 }
