@@ -8,7 +8,7 @@ body{
 }
 
 aside{
-  background-color:violet;/* #8E1401; */
+  background-color:#8E1401;
   height:auto;
 }
 
@@ -145,7 +145,7 @@ div h1{
   margin-bottom:20px;
 }
 
-@media only screen and (max-width: 100px){
+@media screen and ((max-device-width: 500px) or (max-width: 700px)){
   body{
     display:flex;
     flex-direction:column;
@@ -168,6 +168,7 @@ div h1{
   aside ul{
     width:100%;
     font-size:20px;
+    background-color:blue;
   }
 
   .dates{
