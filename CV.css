@@ -12,7 +12,7 @@ aside{
   height:auto;
 }
 
-p, h3, h1, span{
+p, h3, h1, span, nav{
   padding-left:20px;
   padding-right:20px;
 }
@@ -39,6 +39,7 @@ a{
   margin-top:0px;
   padding-bottom:0px;
   font-size:20px;
+  margin-bottom:5px;
 }
 
 #nom{
@@ -143,6 +144,14 @@ div h1{
 
 #formation .dates{
   margin-bottom:20px;
+}
+
+nav img{
+  height:25px;
+}
+
+nav a{
+  margin-right:5px;
 }
 
 @media screen and ((max-device-width: 500px) or (max-width: 700px)){
